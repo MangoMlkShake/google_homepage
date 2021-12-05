@@ -1,0 +1,131 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top_navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#menu_left{
+padding-top: 2%;
+padding-left:4%;
+padding-bottom: 2%;
+
+order:1;
+width: 15vh;
+
+}
+
+#menu_left a{
+    color:black;
+    text-decoration: none;
+}
+
+
+#about_link{
+    margin-right: 3%;
+}
+
+#store_link{
+    margin-right: 3%;
+}
+
+#menu_right{
+    padding-top: 2%;
+    padding-left:4%;
+    padding-bottom: 2%;
+    order:2;
+    width: 25vh;
+
+    }
+
+#menu_right a{
+    color:black;
+    text-decoration: none;
+}
+
+#gmail_link{
+    margin-right: 3%;
+    }
+    
+#images_link{
+    margin-right: 3%;
+    }
+
+/* to do: make app selector image align with text*/
+#app_selector{
+    margin-right: 3%;
+        }
+/* style button to match google style*/        
+#sign_in_button{
+            margin-right: 3%;
+        }
+
+#google_logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 35vw;
+}
+
+#search_bar{
+/* setting up flexbox for items inside search bar */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+/* centering search bar */
+    margin: auto;
+/* styling search bar - round thin border, and size of search bar*/
+    border-style: solid;
+    border-width:1px;
+    border-color: lightgrey;
+    border-radius: 20px;
+    height: 40px;
+    width:65%;
+
+}
+
+#search_box_text_div{
+    order: 2;
+
+    padding-left: 2%;
+    flex-basis: auto;
+}
+
+#search_box_text{
+    color: rgb(129, 127, 127);
+    font-size: 1rem;
+}
+
+#search_icon_div{
+    order: 1;
+    padding-left: 15px;
+    padding-top: 5px;
+    flex-basis: auto;
+}
+
+#search_icon{
+    width: 75%; 
+    object-fit: contain
+}
+
+#search_and_lucky_buttons{
+    outline: solid pink;
+    height: 5vh;
+    width: 100%;
+}
+
+#search_button{
+    font-size: 1.5vh;
+}
+
+#lucky_button{}
